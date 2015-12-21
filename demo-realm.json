@@ -1,0 +1,69 @@
+{
+  "id" : "demo-realm",
+  "realm" : "demo-realm",
+  "enabled" : true,
+  "sslRequired" : "external",
+  "privateKey" : "MIIEpAIBAAKCAQEAoSVntSMVqCb8Ru+Z6VU9Gj457qsrS/7tqHo1TGi4lLo2rsCHxTKE1UaMlTEtkwCrVwd0uoU5OpMu8W3nSskaWxFptTzJqoDxO4ku6Lzasswz5EqzeMl3uToVsejC7V/CXYdyrDMAlpe02rzRALCeBHG3IhQNqEKE1vMhE+av+N7QoJwGg0kOMVx2nB4EdeE13PwRqooc9VwICeK43RYVNg+I+VMpK+5XgfaVKOFM/VQAjvQS63wLlHcPI1J4HE5r8ZiXxJgliOeaHDY43uLZX1l0yzczgelBDB8fwPFFjf4erWeRhTYsNEzkOjX36N4bLoQP3Amc3X3dJTiujZJHxwIDAQABAoIBABYNsXC3uXoGw9XNaqnlMXSK+ZCxOj6vR8Ub3Hl1h3VLOrqVvL7/F/C8M/cjANKyb8B8U7xHCTr785u058dzWDkIXAgippLADMOSFapiVifMDHn8wy0PnWPrEBcF/M9RoJ7+L3JjlHwHjQe2eX/3q9h924s9ZVUWrWlhYrB/jKupUswgEfKbayJ9FsUyCPf3Vx2kMe6sH1a/UJmZkrGXWRyW6kYoyGMUABea4lmIWaLRJJ77fu9/d4/MkNHo9bIuu8P6qAvPRDoDrJhWqr/1uC/sgVP7ng1OHBhFl1kqObyJGysuiKrzTpMjEATk86bBkR1A5w/ejxrxiTKPD43Nh+ECgYEA4YCsEx1/TZeN0dVn2aGn5C0uPktAV6qATXfQMTZiEKuZkCUIiW3ZhexXoYZCmqiEGi9h8C9sOtn0hgrVTp8yJn598KEHFIiJI/G2yHdWhlXlMx1ET60AlQUyTJZrZLQ3ZGt7923eSIBIryphOUkevRBeICj1rRDC7P6r9DKW45cCgYEAtvCWsgs9cYo+uUMFVxlJ3x3bI4YpbnDF4jgLKFBNlhUI/+fexhuiKFZQUVRHUol61Hky61yhwLVeWqvrJgfuHn85BYuJ/J0oPdJ+NY9aFby9btlHO5pVowZy5qry8WmM9yjW+ES6Hl/arFCRHHse9gcHL9AlLWFyv9qBIulSg1ECgYEAv2hEpwUGpYnaqx2FRMlehOOEuQOO3dqvhRIJ+Xu7yYKemieVE3HWjUKLL2OS7UvUtZU6gHEAYQPX9l8Dp/Sg0OPVaoaER/2MyqHFEGubWfNW1Qgmj6q9L8B1bWTQS25dBjPlyaPMZaXeDDDgzYsvODPIcWvS/M+ZZSjWNDUstokCgYEAs+CszDQxHksIkbFMtu+uqyv4JV3tryJD8MOadPFA2KmmR7n+Wl0hfPgh0VZFKurzU6g4YSScB5hORml0tdhmUqZVsxYZf8Inp2IppxBlS6phuXT7jaebPMlCgXzllGpsqToG5ebt+p/VrEkr5g1JzC/s6R6I76453ltDTsiM0YECgYAV4VYFyfaifCfuUWl6PaK/o6qmFhhYQX7c1oTnD1WgYg5krr0bPdF7dprF5IVnBKd9y/NhkMOpGz3rVkGyQpkHUhUZHbiaqoK5bCbOkPjzIkcYblPOy43LdN/xl1w7iW+MFkNtWPAEEouCCuWgOiPIK4msRZ708+nO7PgS2XHplg==",
+  "publicKey" : "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoSVntSMVqCb8Ru+Z6VU9Gj457qsrS/7tqHo1TGi4lLo2rsCHxTKE1UaMlTEtkwCrVwd0uoU5OpMu8W3nSskaWxFptTzJqoDxO4ku6Lzasswz5EqzeMl3uToVsejC7V/CXYdyrDMAlpe02rzRALCeBHG3IhQNqEKE1vMhE+av+N7QoJwGg0kOMVx2nB4EdeE13PwRqooc9VwICeK43RYVNg+I+VMpK+5XgfaVKOFM/VQAjvQS63wLlHcPI1J4HE5r8ZiXxJgliOeaHDY43uLZX1l0yzczgelBDB8fwPFFjf4erWeRhTYsNEzkOjX36N4bLoQP3Amc3X3dJTiujZJHxwIDAQAB",
+  "codeSecret" : "805041ad-273c-4ebb-89d4-eca7648afb9b",
+  "roles" : {
+    "realm" : [ {
+       "name" : "demo-role-2"      
+    }, {
+      "name" : "demo-role-1"
+    } ]    
+  },
+  "users" : [ {
+    "username" : "userwithdemorole1",
+    "enabled" : true,
+    "credentials" : [ {
+      "type" : "password",
+      "hashedSaltedValue" : "Fnh/KRyAEvohQisgFCrjHUCuU6WulbVo7qHODGXE/Q4sTAKiNVfG1dLY7/Xbj6Yd8Mfwi8z7ByJGVC8GstjquQ==",
+      "salt" : "9/bHo8XaBGG1rIJMUyjNjQ==",
+      "hashIterations" : 1,
+      "counter" : 0,
+      "digits" : 0    
+    } ],
+    "realmRoles" : [ "demo-role-1" ] 
+  }, {
+    "username" : "userwithdemorole1and2",
+    "enabled" : true,
+    "credentials" : [ {
+      "type" : "password",
+      "hashedSaltedValue" : "qJJhDJvrap/l4Mxu1xk+lBOI3jZK08pxa90Z/YG4zsA9nfdnbqjVtZKEj2ebOuBdbiV7CB8YUwgNuCZuedcsmg==",
+      "salt" : "5TfUVkhHdyHwmZDd5Rpl+w==",
+      "hashIterations" : 1,
+      "counter" : 0,
+      "digits" : 0
+    } ],
+    "realmRoles" : [ "demo-role-2", "demo-role-1" ]
+  }, {
+    "username" : "userwithdemorole2",
+    "enabled" : true,
+    "credentials" : [ {
+      "type" : "password",
+      "hashedSaltedValue" : "dHs3VRMaddf8rxGx/Tlea+bn1bxJHvnW0VRGhteCF9eocsKKaALagDo2LkWWSeD1+TInxrnRpQfVY23mqM2+fA==",
+      "salt" : "wEapYWiu663uCpQUMZW3xw==",
+      "hashIterations" : 1,
+      "counter" : 0,
+      "digits" : 0
+    } ],
+    "realmRoles" : [ "demo-role-2" ]
+  } ],
+  "clients" : [{
+    "clientId" : "demo-app-1-client",
+    "baseUrl" : "/demoApp1/",
+    "enabled" : true,
+    "redirectUris" : [ "/demoApp1/*" ],
+    "publicClient" : true,
+    "protocol" : "openid-connect"
+  }, {
+    "clientId" : "demo-app-2-client",
+    "baseUrl" : "/demoApp2/",
+    "enabled" : true,
+    "redirectUris" : [ "/demoApp2/*" ],
+    "publicClient" : true,
+    "protocol" : "openid-connect"
+  } ],
+  "loginTheme" : "demo-theme"
+}

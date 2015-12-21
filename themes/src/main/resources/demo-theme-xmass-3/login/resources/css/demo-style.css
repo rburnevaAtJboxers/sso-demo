@@ -1,0 +1,12 @@
+#kc-logo-wrapper {
+    background: transparent;
+}
+
+.login-pf body {
+	background: #0f0f0f url("../img/wall3.jpg") top left no-repeat;
+    background-size: 100% auto;
+}
+
+#kc-header , .login-pf .container{
+    color: #000000;
+}

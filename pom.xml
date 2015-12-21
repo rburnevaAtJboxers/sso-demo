@@ -7,6 +7,6 @@
   <modules>
   	<module>sso-demo-app-1</module>
   	<module>sso-demo-app-2</module>
-  	<module>theme</module>
+  	<module>themes</module>
   </modules>
 </project>
