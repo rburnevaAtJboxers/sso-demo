@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Demo web application 1</title>
+	</head>
+	<body>
+		
+		<h3>Demo setup :</h3>
+		
+			<ul>
+				<li>Realm : demo-realm</li>
+								
+				<li>Realm roles: <b>demo-role-1</b> , <b>demo-role-2</b></li>
+				<li>Realm users (password is <b>q</b>): 
+					<ul>
+						<li><b>userwithdemorole1</b> - has demo-role-1</li>
+						<li><b>userwithdemorole2</b> - has demo-role-2</li>
+						<li><b>userwithdemorole1and2</b> - has demo-role-1 and demo-role-2</li>
+					</ul>
+				</li>
+			</ul>
+		
+		<h3>Realm clients: </h3>
+		
+		
+		<ul>
+		
+				<li> <a href="/demoApp1">demoApp1</a>  
+					
+					<ul>
+						<li><a href="/demoApp1/public"> public (no login required)</a></li>
+						<li>
+							<a href="/demoApp1/private"> private resources (index page is accessible with demo-role-1 or demo-role-2 )</a>
+							<ul>
+								<li><a href="/demoApp1/private/demo-role-1"> page is accessible with demo-role-1</a></li>
+								<li><a href="/demoApp1/private/demo-role-2"> page is accessible with demo-role-2</a></li>				
+							</ul>
+						</li>			
+					</ul>				
+				</li>
+				
+				<li> <a href="/demoApp2">demoApp2</a>
+					<ul>
+						<li><a href="/demoApp2/public"> public (no login required)</a></li>
+						<li>
+							<a href="/demoApp2/private"> private resources (index page is accessible with demo-role-1 )</a>
+						</li>			
+					</ul>			
+				</li>
+			
+		</ul>
+		
+		
+		<h3>Logout</h3>
+		<ul>
+			<li>demo app 1 - <a href="/demoApp1/logout">logout</a></li>
+			<li>demo app 2 - <a href="/demoApp2/logout">logout</a></li>					
+		</ul>
+	</body>
+</html>

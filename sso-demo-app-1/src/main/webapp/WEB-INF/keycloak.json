@@ -1,0 +1,8 @@
+{
+  "realm": "demo-realm",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoSVntSMVqCb8Ru+Z6VU9Gj457qsrS/7tqHo1TGi4lLo2rsCHxTKE1UaMlTEtkwCrVwd0uoU5OpMu8W3nSskaWxFptTzJqoDxO4ku6Lzasswz5EqzeMl3uToVsejC7V/CXYdyrDMAlpe02rzRALCeBHG3IhQNqEKE1vMhE+av+N7QoJwGg0kOMVx2nB4EdeE13PwRqooc9VwICeK43RYVNg+I+VMpK+5XgfaVKOFM/VQAjvQS63wLlHcPI1J4HE5r8ZiXxJgliOeaHDY43uLZX1l0yzczgelBDB8fwPFFjf4erWeRhTYsNEzkOjX36N4bLoQP3Amc3X3dJTiujZJHxwIDAQAB",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "none",
+  "resource": "demo-app-1-client",
+  "public-client": true
+}
