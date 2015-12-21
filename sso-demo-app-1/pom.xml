@@ -5,7 +5,7 @@
     <artifactId>sso-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>demo-app-1</artifactId>
+  <artifactId>sso-demo-app-1</artifactId>
   <packaging>war</packaging>
   
   <repositories>
